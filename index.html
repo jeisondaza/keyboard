@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CSS - Keyboard</title>
+</head>
+<body>
+    <h1 class="title">Pure CSS and HTML keyboard layout</h1>
+    <main class="keyboard">
+        <section class="group functionKeys">
+            <div class="ECS">
+                <p class="key" data-key="Escape">Esc</p>
+            </div>
+            <div class="group f1-f4">
+                <p class="key" data-key="F1">F1</p>
+                <p class="key" data-key="F2">F2</p>
+                <p class="key" data-key="F3">F3</p>
+                <p class="key" data-key="F4">F4</p>
+            </div>
+            <div class="group f5-f8">
+                <p class="key" data-key="F5">F5</p>
+                <p class="key" data-key="F6">F6</p>
+                <p class="key" data-key="F7">F7</p>
+                <p class="key" data-key="F8">F8</p>
+            </div>
+            <div class="group f9-f12">
+                <p class="key" data-key="F9">F9</p>
+                <p class="key" data-key="F10">F10</p>
+                <p class="key" data-key="F11">F11</p>
+                <p class="key" data-key="F12">F12</p>
+            </div>
+        </section>
+        <section class="ledLabel">
+            <div class="lbl-light">
+                <p class="label">Num<br>Block</p>
+                <div class="light lightAct"></div>
+            </div>
+            <div class="lbl-light">
+                <p class="label">Caps<br>Lock</p>
+                <div class="light lightAct"></div>
+            </div>
+            <div class="lbl-light">
+                <p class="label">Scroll<br>Lock</p>
+                <div class="light lightAct"></div>
+            </div>
+        </section>
+        <section class="central">
+            <div class="group editionKeys1">
+                <p class="key edition" data-key="PrintScreen">PtrScr</p>
+                <p class="key edition" data-key="ScrollLock">ScrLkc</p>
+                <p class="key edition" data-key="Pause">Pause</p>
+            </div>
+            <div class="group editionKeys2">
+                <p class="key edition" data-key="Insert">Insert</p>
+                <p class="key edition" data-key="Home">Home</p>
+                <p class="key edition" data-key="PageUp">Page<br>Up</p>
+                <p class="key edition" data-key="Delete">Delete</p>
+                <p class="key edition" data-key="End">End</p>
+                <p class="key edition" data-key="PageDown">Page<br>Down</p>
+            </div>
+            <div class="group directionKeys">
+                <p class="key direction" data-key="ArrowLeft">←</p>
+                <p class="key direction" data-key="ArrowDown">↓</p>
+                <p class="key direction" data-key="ArrowRight">→</p>
+                <p class="key direction" data-key="ArrowUp">↑</p>
+            </div>
+        </section>
+        <section class="group alphanumericKeys">
+            <p class="key" data-key="Backquote"><sup>~</sup>`</p>
+            <p class="key" data-key="Digit1"><sup>!</sup>1</p>
+            <p class="key" data-key="Digit2"><sup>@</sup>2</p>
+            <p class="key" data-key="Digit3"><sup>#</sup>3</p>
+            <p class="key" data-key="Digit4"><sup>$</sup>4</p>
+            <p class="key" data-key="Digit5"><sup>%</sup>5</p>
+            <p class="key" data-key="Digit6"><sup>^</sup>6</p>
+            <p class="key" data-key="Digit7"><sup>&</sup>7</p>
+            <p class="key" data-key="Digit8"><sup>*</sup>8</p>
+            <p class="key" data-key="Digit9"><sup>(</sup>9</p>
+            <p class="key" data-key="Digit0"><sup>)</sup>0</p>
+            <p class="key" data-key="Minus"><sup>_</sup>-</p>
+            <p class="key" data-key="Equal"><sup>+</sup>=</p>
+            <p class="key TabBack" data-key="Backspace">Backspace</p>
+            <p class="key TabBack" data-key="Tab">Tab</p>
+            <p class="key" data-key="KeyQ">Q</p>
+            <p class="key" data-key="KeyW">W</p>
+            <p class="key" data-key="KeyE">E</p>
+            <p class="key" data-key="KeyR">R</p>
+            <p class="key" data-key="KeyT">T</p>
+            <p class="key" data-key="KeyY">Y</p>
+            <p class="key" data-key="KeyU">U</p>
+            <p class="key" data-key="KeyI">I</p>
+            <p class="key" data-key="KeyO">O</p>
+            <p class="key" data-key="KeyP">P</p>
+            <p class="key" data-key="BracketLeft"><sup>{</sup>[</p>
+            <p class="key" data-key="BracketRight"><sup>}</sup>]</p>
+            <p class="key" data-key="IntlBackslash"><sup>|</sup>\</p>
+            <p class="key mayusEnter" data-key="CapsLock">Caps Lock</p>
+            <p class="key" data-key="KeyA">A</p>
+            <p class="key" data-key="KeyS">S</p>
+            <p class="key" data-key="KeyD">D</p>
+            <p class="key" data-key="KeyF">F</p>
+            <p class="key" data-key="KeyG">G</p>
+            <p class="key" data-key="KeyH">H</p>
+            <p class="key" data-key="KeyJ">J</p>
+            <p class="key" data-key="KeyK">K</p>
+            <p class="key" data-key="KeyL">L</p>
+            <p class="key" data-key="Quote"><sup>:</sup>;</p>
+            <p class="key" data-key="Backslash"><sup>"</sup>'</p>
+            <p class="key mayusEnter" data-key="Enter">Enter</p>
+            <p class="key Shift" data-key="ShiftLeft">Shift</p>
+            <p class="key" data-key="KeyZ">Z</p>
+            <p class="key" data-key="KeyX">X</p>
+            <p class="key" data-key="KeyC">C</p>
+            <p class="key" data-key="KeyV">V</p>
+            <p class="key" data-key="KeyB">B</p>
+            <p class="key" data-key="KeyN">N</p>
+            <p class="key" data-key="KeyM">M</p>
+            <p class="key" data-key="Comma"><sup><</sup>,</p>
+            <p class="key" data-key="Period"><sup>></sup>.</p>
+            <p class="key" data-key="Slash"><sup>?</sup>/</p>
+            <p class="key Shift" data-key="ShiftRight">Shift</p>
+            <p class="key CWA" data-key="ControlLeft">Ctrl</p>
+            <p class="key CWA" data-key="MetaLeft">Win</p>
+            <p class="key CWA" data-key="AltLeft">Alt</p>
+            <p class="key Space" data-key="Space"></p>
+            <p class="key CWA" data-key="AltRight">Alt</p>
+            <p class="key CWA" data-key="ContextMenu">Menu</p>
+            <p class="key CWA" data-key="ControlRight">Ctrl</p>
+        </section>
+        <section class="group numericKeys">
+            <p class="key">Num Lock</p>
+            <p class="key" data-key="NumpadDivide">/</p>
+            <p class="key" data-key="NumpadMultiply">*</p>
+            <p class="key" data-key="NumpadSubtract">-</p>
+            <p class="key" data-key="Numpad9">9</p>
+            <p class="key" data-key="Numpad8">8</p>
+            <p class="key" data-key="Numpad7">7</p>
+            <p class="key" data-key="Numpad6">6</p>
+            <p class="key" data-key="Numpad5">5</p>
+            <p class="key" data-key="Numpad4">4</p>
+            <p class="key add" data-key="NumpadAdd">+</p>
+            <p class="key" data-key="Numpad1">1</p>
+            <p class="key" data-key="Numpad2">2</p>
+            <p class="key" data-key="Numpad3">3</p>
+            <p class="key enter" data-key="NumpadEnter">Enter</p>
+            <p class="key cero" data-key="Numpad0">0</p>
+            <p class="key" data-key="NumpadDecimal">.</p>
+        </section>
+    </main>
+    <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,64L120,96C240,128,480,192,720,229.3C960,267,1200,277,1320,282.7L1440,288L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+    <footer class="footer">
+        <p class="copyright"></p>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
